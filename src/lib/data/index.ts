@@ -245,7 +245,7 @@ export async function getToken(credentials: StorePostAuthReq) {
       return access_token
     })
     .catch((err) => {
-      throw new Error("Wrong email or password.")
+      throw new Error("Falsche Anmeldedaten.")
     })
 }
 

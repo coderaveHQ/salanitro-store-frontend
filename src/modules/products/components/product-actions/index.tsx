@@ -171,7 +171,7 @@ export default function ProductActions({
           data-testid="add-product-button"
         >
           {!variant
-            ? "Select variant"
+            ? "Variante wählen"
             : !inStock
             ? "Out of stock"
             : "Add to cart"}
